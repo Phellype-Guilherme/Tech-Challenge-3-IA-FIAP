@@ -19,7 +19,6 @@ Tech-Challenge-AmazonTitles/
 ├── eval_baseline.py             # Avaliação do modelo base antes do treinamento
 ├── train_sft.py                 # Execução do fine-tuning (LoRA/QLoRA)
 ├── inference.py                 # Geração de respostas com o modelo treinado
-├── app.py                       # Interface web opcional (Gradio)
 ├── requirements.txt             # Dependências do projeto
 └── README.md                    # Documentação do projeto
 ```
