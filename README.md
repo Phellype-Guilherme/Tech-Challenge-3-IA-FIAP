@@ -9,7 +9,7 @@ O propósito é treinar um modelo capaz de **gerar descrições de produtos a pa
 ## 📁 Estrutura do Projeto
 
 ```
-Tech-Challenge-AmazonTitles/
+Tech-Challenge-3-IA-FIAP/
 ├── data/
 │   ├── trn.json                 # Dataset original (fonte AmazonTitles-1.3MM) baixa e adicionar nesta pasta
 │   └── amazon_sft.jsonl         # Dataset preparado para fine-tuning
@@ -89,11 +89,6 @@ python .\inference.py `
   --max-new-tokens 420 `
   --device-map cpu `
   --force-pt
-```
-
-### 5️⃣ Executar Interface Web (opcional)
-```powershell
-python .\app.py
 ```
 
 ---
